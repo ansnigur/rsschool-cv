@@ -8,7 +8,7 @@
 
 ## About me:
 I’m from Ukraine (Cherkassy). I’m seventeen years old.\
-I`m a creative, self-confident, adaptive person with a high row of soft skills: leadership, time managemnt, communication, team management, work ethic, problem-solving, teamwork, creativity, interpersonal skills, attention to detail. I had a purpose to improve these skills every day, using my base of knowledge. In future, I want to be Front-End developer.
+I`m a creative, self-confident, adaptive person with a high row of soft skills: leadership, time managemnt, communication, adaptability, team management, work ethic, problem-solving, teamwork, creativity, interpersonal skills, attention to detail. I had a purpose to improve these skills every day, using my base of knowledge. In future, I want to be Front-End developer.
 
 ## Skills:
 - HTML (basics)
