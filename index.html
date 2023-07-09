@@ -1,13 +1,266 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV HTML&CSS</title>
+        <title>CV HTML&amp;CSS</title>
+       
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="style.css">
+    
+            
     </head>
+    
     <body>
-        <img src="avatar.jpg" alt="Me" width="200" height="200" class="avatar">
-        <h1>Anastasiia Snihur</h1>
-    </body>
+                
+        <header class="header">
+            <div class="container">
+        
+                <nav>
+                    <div class="nav-items">
+                        <a href="#summary">Summary</a>
+                        <a href="#contacts">Contacts</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#code">Code</a>
+                        <a href="#courses">Courses</a>
+                        <a href="#education">Education</a>
+                        <a href="#english">English</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>  
+            <div class="avatar-section">
+                
+                <div class="avatar-photo">
+                    <img src="avatar.jpg" alt="my avatar" width="200" height="200" class="avatar">
+                </div>
+                
+                <div class="info-name">
+                <ol style="list-style-type: none">
+                    <li>
+                        <h1>Anastasiia Snihur</h1>
+                    </li>
+                    <li>
+                        <h3>Trainee Front-End</h3>
+                    </li>
+                </ol>
+                </div>
+                 
+            </div>
+        </main>
+        
+        <div class="info">
+        <div class="info-1">
+        <section id="#contacts">
+            <ol style="list-style-type: none">
+                <li>
+                    <h2>Contacts</h2>
+                    <br>
+                </li>
+                <li>
+                    <ul>
+                        <li><strong>Phone number:</strong>+380 63 165 0083</li>
+                        <li><strong>Email:</strong> nastenasnigur@gmail.com</li>
+                        <li><strong>GitHub:</strong> ansnigur</li>
+                        <li><strong>LinkedIn:</strong> Anastasiia Snihur</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        
+        <br>
+
+        <section id="#summary">
+            <ul style="list-style-type: none">
+                <li>
+                    <h2>Summary</h2>
+                    <br>
+                </li>
+                
+                <li>
+                    <h4>I'm from Ukraine (Cherkassy). I'm seventeen years old.
+                    I`m a creative, self-confident, adaptive person with a high row of soft skills: leadership, time managemnt, communication, adaptability, team management, work ethic, problem-solving, teamwork, creativity, interpersonal skills, attention to detail. I had a purpose to improve these skills every day, using my base of knowledge. In future, I want to be Front-End developer.</h4>
+                </li>
+            </ul>
+        </section>
+        </div>
+
+        <div class="info-2">
+            <section id="#skills">
+                <ul style="list-style-type: none">
+                    <li>
+                        <h2>Skills</h2>
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <ul>
+                            <li>HTML (basics)</li>
+                            <li>CSS (basics)</li>
+                            <li>Python (basics)</li>
+                            <li>Graphic Tools: Figma</li>
+                            <li>IDE: Visual Studio Code, PyCharm, Notepad++</li>
+                            <li>Tools: Git, GitHub, GitLab</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <br>
+    
+            <section class="code" id="code">
+                <h2 class="section-title">Code</h2>
+                <details>
+                    <summary>From my notes</summary>
+                    <pre>
+                          <code data-language = "javascript">
+                            const caesar = function(str, shift) {
+                                return str.split('').map(char => shiftChar(char, shift)).join('');
+                            };
+                            const codeSet = code => (code < 97 ? 65 : 97);
+                            const mod = (n, m) => (n % m + m) % m;
+                            const shiftChar = (char, shift) => {
+                                const code = char.charCodeAt();
+                              
+                                if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)) {
+                                  return String.fromCharCode(
+                                    mod(code + shift - codeSet(code), 26) + codeSet(code)
+                                  );
+                                }
+                                return char;
+                            };
+        
+                          </code>
+                        </pre>
+                </details>
+            </section>
+
+
+
+            <section id="#code">
+                <ol style="list-style-type: none">
+                    <li>
+                        <h2>Code</h2>
+                    </li>
+                    <li>
+                        <h4>codelalala</h4>
+                    </li>
+                </ol>
+            </section>
+            </div>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="info-3">
+            <section id="#courses">
+                <ol style="list-style-type: none">
+                    <li>
+                        <h2>Courses</h2>
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <ul>
+                            <li>HTML (basics)</li>
+                            <li>CSS (basics)</li>
+                            <li>Python (basics)</li>
+                            <li>Graphic Tools: Figma</li>
+                            <li>IDE: Visual Studio Code, PyCharm, Notepad++</li>
+                            <li>Tools: Git, GitHub, GitLab</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+
+            <br>
+    
+            <section id="#english">
+                <ol style="list-style-type: none">
+                    <li>
+                        <h2>English</h2>
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <h4><strong>B1</strong> (Now in process for improving with Busuu, IELTS, “Destinations B2”, EWA, English books, practice with native speakers every week)</h4>
+                    </li>
+                </ol>
+            </section>
+            </div>
+        
+
+        <div class="info-4">
+            <section id="#experience">
+                <ol style="list-style-type: none">
+                    <li>
+                        <h2>Experience</h2>
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <h4>Today I did not have any experience, but for this purpose I’m here.</h4>
+                    </li>
+                </ol>
+            </section>
+
+            <br>
+    
+            <section id="#education">
+                <ol style="list-style-type: none">
+                    <li>
+                        <h2>Education</h2>
+                        <br>
+                    </li>
+                </ol>
+
+                <ul>
+                    <li><strong>University:</strong>Kyiv National Economic University, Computer Science, Bachelor's degree, second-year student</li>
+                    <li>
+                        <strong>Courses:</strong>
+                            <ol style="list-style-type: none">
+                                <li>
+                                    <a href="https://learn.epam.com/">Front-End Self-Paced Online Program Basics</a>
+                                </li>
+                                <li>
+                                    <a href="https://itvdn.com/ua/live-online/python-developer?admitad_uid=6dee2043993df60ec10c1fdd90238909&utm_source=admitad">Python for beginners ITVDN</a>
+                                </li>
+                            </ol> 
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    
+    <div class="logo" id="logo"> 
+        <footer>
+            <div class="footer">
+            <ol style="list-style-type: none">
+                <li>
+                    <img src="logo.svg" width="200" alt="logo">
+                </li>
+                <li>
+                    <a href="https://rs.school/js/">RSSCHOOL</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ansnigur">GitHub</a>
+                </li>
+            </ol>
+            </div>
+        </footer>
+    </div>
+</body>                                 
 </html>
